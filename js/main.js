@@ -26,7 +26,7 @@ const cardTemplate = (pelicula) => {
                         <small class="noto-sans-heading">${pelicula.title}</small><br>
                         <small>${new Date(pelicula.release_date).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' })}</small>
                     </div>
-                    <button class="percentMovie">${pelicula.vote_average.toFixed(1)}%</button>
+                    <button class="percentMovie">${pelicula.vote_average.toFixed(1)}</button>
                 </div>
             </div>
         </div>
